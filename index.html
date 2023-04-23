@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airbnb</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="header">
+        <hr />
+        <div class="account">
+          <h1>AirBed & Breakfast - Find a place to stay.</h1>
+          <ul>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Sign In</a></li>
+          </ul>
+          <p>This listing is no longer available</p>
+          <hr />
+        </div>
+      </div>
+
+      <div id="main_content">
+        <div class="search">
+          <h2>Find a place to stay.</h2>
+          <p>
+            <a href="#"
+              >Rent nightly from real people in
+              <i>830 cities in 73 countries</i></a
+            >
+          </p>
+          <div class="fillcamps">
+            <form action="#">
+              <input
+                type="text"
+                id="search"
+                placeholder="Where are you going?"
+              />
+              <p>_</p>
+              <label for="checkin">Check in</label>
+              <input type="date" id="checkin" name="checkin" />
+              <label for="checkout">Check out</label>
+              <input type="date" id="checkout" name="checkout" />
+              <label for="guests">Guests</label>
+              <input
+                type="number"
+                class="label"
+                name="guests"
+                id="guests"
+                value="1"
+                min="1"
+              />
+            </form>
+          </div>
+        </div>
+
+        <div class="cities-photo">
+          <div class="amsterdam-house">
+            <img src="images/AmsterdamPool.jpg" alt="Pool in Amsterdam" />
+            <div id="review">
+              <img
+                id="reviewergirl"
+                src="images/reviewer.jpg"
+                alt="Reviewer photo"
+              />
+              <div id="textoreview">
+                <h4><a href="#">"Gabs Place"</a>"-Amsterdam, Netherlands"</h4>
+                <p>$85/night</p>
+                <p>1 Review</p>
+                <img src="logos/reviewbottom.png" alt="Next icon" id="icon1" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rightside-photos">
+          <div class="los-angeles">
+            <h3>Frances & Greg, Los Angles</h3>
+            <p>Recently reviewed</p>
+            <img src="images/happycouple.jpg" alt="Happy couple" />
+          </div>
+
+          <div class="dc">
+            <h3>Washington DC</h3>
+            <p>From $10/night</p>
+            <img src="images/dcmonument.jpg" alt="Monument in DC" />
+          </div>
+
+          <div class="paris">
+            <h3>Paris, France</h3>
+            <p>Rooms from $20/night</p>
+            <img src="images/parisferrywheel.jpg" alt="Ferris wheel in Paris" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="leftside-photos">
+      <div class="san-francisco">
+        <h3>San Francisco, CA</h3>
+        <p>Rooms from $29/night</p>
+        <img src="images/sanfrancisco.jpg" alt="Monument in San Francisco" />
+      </div>
+      <div class="icons">
+        <img
+          src="logos/icons.png"
+          alt="CNN,The New York Times, TechCrunch, Newsweek, The Wall Street Jornal, NBC"
+        />
+      </div>
+    </div>
+
+    <div id="additional_information">
+      <div class="moreinfo">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Terms & Privacy</a></li>
+          <li><span>Biggest Deals: </span><a href="#">New York</a></li>
+          <li><a href="#">San Francisco</a></li>
+          <li><a href="#">Paris</a></li>
+          <li><span>Join us on: </span><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy;AirBed & Breakfast, Inc.</p>
+    </div>
+
+    <!-- End of container -->
+  </body>
+</html>

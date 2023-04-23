@@ -1,0 +1,165 @@
+/*CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-left: 1px;
+  }
+  body {
+    min-width: 1000px;
+    margin: auto;
+    
+  }
+  .header {
+    text-align: left;
+    background-color: #ffffff;    
+    
+  }
+  .account{
+    padding-top: 14px;
+  }
+
+  .account h1 {
+    font-size: 18px;
+  }
+  .account ul {
+    font-size: 12px;
+    padding-left: 25px;
+    padding-top: 14px;
+    padding-bottom:10px;
+  }
+  .account p{
+    font-size: 12px;
+  }
+  #main_content{
+    display: flex;    
+    
+    flex-direction: row;
+    
+  }
+  .rightside-photos{
+    padding-top: 10px;
+    
+    
+    
+  }
+  .rightside-photos img{
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+  }
+ 
+  .leftside-photos{    
+    display: inline-block;
+    text-align:left;
+    
+  }
+
+  
+  .search h2{
+    padding-top: 40px;
+    padding-bottom: 5px;
+    font-size: 16px;
+
+  }
+
+  .search p{    
+    padding-bottom: 5px;
+    font-size: 12px;
+
+  }
+  .fillcamps{    
+    height: 200px;
+    font-size: 14px;
+    
+
+  }
+  .fillcamps checkin>input,label{
+    display: flex;
+   
+  }
+  .fillcamps input{      
+    width: 150px;
+    border: 1px solid #7f9db9;
+   
+   
+  }
+
+  #guests{       
+    width: 45px;
+    border-radius: 15%;
+    border: 1px solid #7f9db9;
+    background-color:#EEEEEE;
+    display: flex;
+   
+  }
+  
+
+  .amsterdam-house img{
+   
+    display: flex;
+    
+    height: 300px;
+    padding-bottom: 5px;   
+          
+  }
+  .amsterdam-house{
+    padding-top: 10px;
+  }
+  #reviewergirl{
+    width: 60px;
+    height: 60px;
+    
+  }
+  #review{
+    display: flex;
+  }
+
+  
+  #icon1{
+    height: 20px;
+    
+  }
+  .rightside-photos h3{
+    font-size: 14px;
+    color: #F082B3;
+  }
+  .san-francisco h3{
+    font-size: 14px;
+    color: #F082B3;
+  }
+  
+  .los-angeles img{
+    width: 200px;
+    height: 90px;
+  }
+
+  .dc img{
+    width: 200px;
+    height: 90px;
+  }
+  
+  .paris img{
+    width: 200px;
+    height: 90px;
+    
+  }
+
+  .san-francisco img{
+    width: 200px;
+    height: 90px;   
+    
+  }
+  .icons img{
+    width: 70%
+    
+    
+  }
+  .moreinfo{
+    padding-left: 25px;
+    font-size: 12px;
+  }
+  
